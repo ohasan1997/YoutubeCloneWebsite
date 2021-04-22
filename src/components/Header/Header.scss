@@ -1,0 +1,83 @@
+.Header {
+	padding: 1px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: white;
+	.header-menu {
+		padding: 5px;
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+	}
+	.youtube-logo {
+		padding: 10px;
+		width: 100px;
+		height: 60px;
+		color: gray;
+	}
+	.youtube-search {
+		padding: 5px;
+		width: 18px;
+		height: 18px;
+		background-color: #fafafa;
+		border-left: 1px solid lightgrey;
+		color: gray;
+		margin: 0 0 0 10px;
+	}
+	.youtube-mic {
+		padding: 5px;
+		width: 20px;
+		height: 20px;
+	}
+	.youtube-camera {
+		padding: 5px;
+		width: 30px;
+		height: 30px;
+		margin: 0 0 0 10px;
+	}
+	.youtube-apps {
+		padding: 5px;
+		width: 30px;
+		height: 30px;
+		margin: 0 0 0 10px;
+	}
+	.youtube-notification {
+		padding: 5px;
+		width: 30px;
+		height: 30px;
+	}
+	.avatar {
+		padding: 5px;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	}
+}
+.header__left {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.header__input {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid black;
+}
+.header__icons {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+input {
+	max-width: 80%;
+	width: 300px;
+	height: 25px;
+	flex: 1;
+	border: none;
+}

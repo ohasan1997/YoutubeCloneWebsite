@@ -1,0 +1,45 @@
+/* .videoCard .video_info .avatar{
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.videoCard .image {
+  padding: 2px;
+  width: 10px;
+  height: 80px;
+} */
+.videoCard {
+	width: 270px;
+	padding: 2px;
+	margin-bottom: 40px;
+	>.video_info {
+		display: flex;
+		margin-top: 10px;
+		padding-right: 30px;
+		>.channelImage {
+			padding: 0 0 0 6px;
+			width: 20px;
+			height: 20px;
+			margin-top: 16px;
+			border-radius: 50%;
+		}
+		>.title {
+			margin-left: 15px;
+			>h4 {
+				font-size: 14px;
+			}
+			>p {
+				font-size: 14px;
+				color: gray;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	>.thumbnail {
+		height: 140px;
+		width: 250px;
+	}
+}
