@@ -12,7 +12,10 @@ class SearchPage extends React.Component {
           <h2>Filter</h2>
        </div>
        <hr />
-       {/* <ChannelRow /> */}
+       <ChannelRow />
+       <ChannelRow />
+       <ChannelRow />
+       <VideoRow />
        <hr />
       </div>
     )
